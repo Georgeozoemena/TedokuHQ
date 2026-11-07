@@ -1,0 +1,27 @@
+VERCEL ENVIRONMENT VARIABLES
+============================
+Copy and paste these into Vercel when deploying.
+Replace the values in < > with your actual values.
+
+APK_URL=<your-direct-apk-download-link>
+
+NEXT_PUBLIC_SITE_URL=<your-vercel-url-after-deployment>
+
+IP_HASH_SALT=1a45f876c22e4a5a8d7a1c827648584eeea9635360bfeb4c99a87453ae7794ff
+
+CRON_SECRET=c416afd29ab292011a839fb9367bfc9e2661998dbe0e8c7533234eb2d0540240
+
+NEXT_PUBLIC_SUPABASE_URL=https://ygqubnysmjfdjfrhvhla.supabase.co
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<copy-from-your-env-local>
+
+SUPABASE_SERVICE_ROLE_KEY=<copy-from-your-env-local>
+
+ADMIN_EMAILS=detechbishop@gmail.com,vaikosenkaitlyn2@gmail.com
+
+============================
+IMPORTANT NOTES:
+1. Copy Supabase keys from your .env.local file
+2. Update NEXT_PUBLIC_SITE_URL after first deployment
+3. Get APK_URL from Expo build or your file hosting
+4. Never commit these to git!
