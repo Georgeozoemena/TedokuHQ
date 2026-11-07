@@ -1,0 +1,35 @@
+{
+  "name": "tedoku-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "seed": "tsx scripts/seed.ts",
+    "seed:remove": "tsx scripts/seed.ts --remove"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.5.2",
+    "@supabase/supabase-js": "2.47.10",
+    "dotenv": "^18.0.9",
+    "next": "15.1.12",
+    "qrcode": "1.5.4",
+    "react": "19.0.9",
+    "react-dom": "19.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/qrcode": "1.5.5",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "vitest": "2.1.8"
+  }
+}
